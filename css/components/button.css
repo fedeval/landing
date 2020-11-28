@@ -1,0 +1,14 @@
+.btn {
+	background-color: black;
+	color: white;
+	padding: 14px 30px;
+	border: solid 1px white;
+	display: inline-block;
+	transition: all 1s ease-out;
+}
+
+.btn:hover {
+	background-color: white;
+	border-color: black;
+	color: black;
+}

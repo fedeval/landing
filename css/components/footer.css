@@ -1,0 +1,22 @@
+.footer {
+	background-color: black;
+	color: white;
+	padding-bottom: 30px;
+	padding-top:10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline > li {
+	display: inline-block;
+}
+
+.social-icon {
+	font-size: 40px;
+	margin: 20px;
+}

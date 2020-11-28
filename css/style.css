@@ -1,0 +1,55 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.15.0/css/all.css');
+
+/*Components*/
+@import url('components/banner.css');
+@import url('components/container.css');
+@import url('components/button.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Utilities */
+
+@media(max-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+  }
+}
+@media(max-width: 992px) {
+  .wrapper {
+    width: 992px;
+  }
+}
+@media(max-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+}
+@media(max-width: 576px) {
+  .wrapper {
+    width: 576px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Space Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
